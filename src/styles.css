@@ -189,6 +189,19 @@ body{
     .designed {
       text-align: center;
       opacity: 30%;
+     
+
+    }
+
+    .designed a{
+      color: #E81A9B;
+       text-decoration: none;
+    }
+
+
+    .designed a:hover{
+      text-decoration: underline;
+      color:#55b6ff;
     }
 
     @media(max-width: 960px){
