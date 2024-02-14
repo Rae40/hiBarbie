@@ -1,0 +1,258 @@
+body{
+    font-family:"Righteous", "Jacques Francois Shadow", "Montserrat Alternates", sans-serif;  
+    background:  linear-gradient(rgba(236, 213, 217, 0.8), #E81A9B, #55b6ff,#ECD5D9 );
+    color: #E81A9B;
+      
+    }
+
+    header{
+       background-image: linear-gradient(rgba(236, 213, 217, 0.7), rgba(236, 213, 217,0.9)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/685/original/Barbie.jpeg?1693782194");
+       background-repeat:no-repeat;
+      background-size: cover;
+      text-align:center;
+      font-family:"Montserrat Alternates";
+      font-style: italic;
+      padding: 20px;
+    }
+
+     header h1{
+        font-size: 50px;
+      }
+
+        header h2{
+        font-size: 35px;
+      }
+
+        header h3{
+        font-size: 20px;
+      }
+
+    #barbie{
+  color:  #E81A9B;
+  font-style: italic;
+  font-family:"Jacques Francois Shadow";
+  font-size: 55px;
+    }
+
+   #ken {
+  color:  #55b6ff;
+  font-style: italic;
+  font-family:"Righteous";
+  font-size: 34px;
+    }
+
+    
+
+    section {
+      max-width:1500px;
+      margin:0 auto;
+      padding:100px 0;
+    }
+
+    .container2{
+  background-image: linear-gradient(rgba(236, 213, 217, 0.8), rgba(236, 213, 217,0.6)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/678/original/Airbnb_Is_Offering_a_Free_Stay_at_Barbie%E2%80%99s_Malibu_Dreamhouse__Hosted_by_Ken.jpeg?1693781863");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    max-width:2000px;
+    margin: 100px auto;
+    padding:150px;
+    border-radius:10px;
+    }
+
+  #trailer{
+      background-color: #ECD5D9;
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      
+  
+    }
+
+    .container2 p{
+      margin:10px 15px;
+      padding: 20px 25px;
+      font-size: 20px;
+      font-style: italic;
+      
+
+    }
+
+     .container2 h1{
+      text-align: center;
+      font-family: "Jacques Francois Shadow";
+      font-size: 35px;
+     }
+
+    .grid{
+      display: grid;
+      grid-gap: 64px;
+    }
+
+    .grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .gallery {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .instagram-embeds {
+      margin:30px 0;
+    }
+
+     .grid-4-columns {
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+    .card {
+       background-color: #ECD5D9;
+       margin: 20px 0;
+       padding: 10px;
+      
+    }
+
+    .card p{
+      padding: 10px;
+    }
+
+
+    .card-footer {
+      padding:20px;
+    }
+
+    #blu{
+      color: #55b6ff;
+    }
+
+    .btn{
+      display: block;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #ffff;
+
+      text-decoration: none;
+      padding: 16px;
+      gap: 10px;
+       background:  linear-gradient( #E81A9B,#ebc4ca);
+    }
+
+    .btn:hover{
+     background:  linear-gradient( #E81A9B, #55b6ff);
+      color:  #ffff;
+    }
+
+    .img-responsive { 
+      width:100%;
+      display: block;
+    }
+
+    footer{
+  
+     color: #E81A9B;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin: 10px ;
+     padding: 1.5px;
+    }
+
+    footer a{
+      text-decoration: none;
+      color: #E81A9B;
+
+    }
+
+    footer a:hover{
+      text-decoration: underline;
+      color:#55b6ff;
+    }
+
+    footer h4{
+      font-family: "Righteous";
+    }
+
+    footer li{
+      list-style: none;
+      margin:0;
+      padding:0;
+    }
+
+    footer p{
+  font-family:"Montserrat Alternates";
+    }
+
+    .designed {
+      text-align: center;
+      opacity: 30%;
+    }
+
+    @media(max-width: 960px){
+      header {
+        padding: 60px 0;
+
+      }
+
+      header h1{
+        font-size: 38px;
+      }
+
+        header h2{
+        font-size: 25px;
+      }
+
+        header h3{
+        font-size: 20px;
+      }
+
+
+      iframe{
+        width: 100%;
+        aspect-ratio:9/9;
+
+      }
+
+      .grid-3-columns{
+        grid-template-columns: 1fr;
+      }
+  
+
+       .container2{
+    background-color: #ECD5D9;
+    background-image: none;
+
+    padding: 25px;
+    border-radius:10px;
+    }
+
+  #trailer{
+      display: grid;
+      grid-template-columns: 1fr;
+    
+  
+    }
+
+    .container2 p{
+      font-size: 20px;
+      font-style: normal;
+      
+    }
+
+    .grid-4-columns{
+        grid-template-columns: 1fr 1fr;
+      }
+
+    
+
+      footer{
+        grid-template-columns: 2fr;
+      }
+
+      footer p{
+      font-size: 15px;
+      }
+    }
